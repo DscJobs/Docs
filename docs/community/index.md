@@ -1,5 +1,5 @@
 ---
-title: Community Documentation
+title: Community
 noTOC: true
 ---
 
