@@ -1,7 +1,7 @@
 ---
 title: Authoring
 ---
-Paradise Docs is made possible through contributors made by project maintainers and community members. Each page corresponds to a Markdown file and can be edited via GitHub to then appear on the public site once the build completes.
+This Docs Site is made possible through contributors made by project maintainers and community members. Each page corresponds to a Markdown file and can be edited via GitHub to then appear on the public site once the build completes.
 
 This site contains both public-facing usage documentation, API documentation and internal implementation documentation intended for contributors.
 
