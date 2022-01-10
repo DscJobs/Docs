@@ -20,7 +20,7 @@ module.exports = {
       owner: "DscJobs",
       name: "Docs",
       docsRoot: "docs/",
-      branch: "main"
+      branch: "master"
     },
     api: {
       restVersion: "REST v1",
