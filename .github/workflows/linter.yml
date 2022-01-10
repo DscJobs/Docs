@@ -7,10 +7,10 @@ jobs:
     steps:
       - name: Checkout Project
         uses: actions/checkout@v2
-      - name: Use Node.js 14
+      - name: Use Node.js 12
         uses: actions/setup-node@v2.5.1
         with:
-          node-version: 14
+          node-version: 12
           cache: "yarn"
       - name: Install dependencies
         run: yarn
