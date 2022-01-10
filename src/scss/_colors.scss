@@ -17,6 +17,8 @@ $black: #000 !default;
 $porcelain: #f6f8f9 !default;
 $linh-blue: #6496c4 !default;
 $dsjobsblue: #3D476E !default;
+$dscjobsdark: #1f2329 !default;
+$dscjobsbluer: #2B3149 !default;
 $olivine: #cba15b !default;
 $tundora: #453e3e !default;
 $mine-shaft: #282c34 !default;
@@ -46,8 +48,8 @@ $theme-colors: (
     info: $neptune,
     warning: $equator,
     danger: $burnt-sienna,
-    light: $porcelain,
-    dark: $mine-shaft
+    light: $dscjobsdark,
+    dark: $dscjobsbluer
 ) !default;
 
 // Color aliases:
