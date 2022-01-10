@@ -1,6 +1,6 @@
 # DscJobs Docs
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/c4574357-2d72-45dc-95f4-cb4899f50b2e/deploy-status)](https://app.netlify.com/sites/keen-easley-6bcf04/deploys) [![Codacy Security Scan](https://github.com/DscJobs/Docs/actions/workflows/codacy-analysis.yml/badge.svg)](https://github.com/DscJobs/Docs/actions/workflows/codacy-analysis.yml) [![CodeQL](https://github.com/DscJobs/Docs/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/DscJobs/Docs/actions/workflows/codeql-analysis.yml)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/c4574357-2d72-45dc-95f4-cb4899f50b2e/deploy-status)](https://app.netlify.com/sites/keen-easley-6bcf04/deploys) [![Codacy Security Scan](https://github.com/DscJobs/Docs/actions/workflows/codacy-analysis.yml/badge.svg)](https://github.com/DscJobs/Docs/actions/workflows/codacy-analysis.yml) [![CodeQL](https://github.com/DscJobs/Docs/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/DscJobs/Docs/actions/workflows/codeql-analysis.yml) [![Lint](https://github.com/DscJobs/Docs/actions/workflows/linter.yml/badge.svg)](https://github.com/DscJobs/Docs/actions/workflows/linter.yml)
 
 Documentation for the DscJobs Website, API and Discord Server
 
