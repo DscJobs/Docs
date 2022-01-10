@@ -70,7 +70,7 @@ function SEO({ description, lang, meta, title }) {
         },
         {
           property: "og:image",
-          content: "https://media.discordapp.net/attachments/585552449922662420/745845189175803984/WORKBITCH.png"
+          content: "https://dscjobs.org/secret/assets/imgs/DscJobsNewLogo.png"
         },
         {
           property: `og:description`,
@@ -114,28 +114,28 @@ function SEO({ description, lang, meta, title }) {
         {
           rel: "mask-icon",
           color: themeColor,
-          href: "https://media.discordapp.net/attachments/585552449922662420/745845189175803984/WORKBITCH.png"
+          href: "https://dscjobs.org/secret/assets/imgs/DscJobsNewLogo.png"
         },
         {
           rel: "apple-touch-icon",
           sizes: "180x180",
-          href: "https://media.discordapp.net/attachments/585552449922662420/745845189175803984/WORKBITCH.png"
+          href: "https://dscjobs.org/secret/assets/imgs/DscJobsNewLogo.png"
         },
         {
           rel: "icon",
           type: "image/png",
           sizes: "32x32",
-          href: "https://media.discordapp.net/attachments/585552449922662420/745845189175803984/WORKBITCH.png"
+          href: "https://dscjobs.org/secret/assets/imgs/DscJobsNewLogo.png"
         },
         {
           rel: "icon",
           type: "image/png", 
           sizes: "16x16",
-          href: "https://media.discordapp.net/attachments/585552449922662420/745845189175803984/WORKBITCH.png"
+          href: "https://dscjobs.org/secret/assets/imgs/DscJobsNewLogo.png"
         },
         {
           rel: "shortcut icon",
-          href: "https://media.discordapp.net/attachments/585552449922662420/745845189175803984/WORKBITCH.png"
+          href: "https://dscjobs.org/secret/assets/imgs/DscJobsNewLogo.png"
         }
       ]}
     />
