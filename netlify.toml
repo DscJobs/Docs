@@ -1,0 +1,10 @@
+[build]
+  command = "gatsby build"
+  publish = "public/"
+
+# Redirect default Netlify subdomain to primary domain
+[[redirects]]
+  from = "https://dscjobsdocs.netlify.com/*"
+  to = "https://docs.dscjobs.org/:splat"
+  status = 301
+  force = true
