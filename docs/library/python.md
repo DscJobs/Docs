@@ -1,6 +1,5 @@
 ---
-shortTitle: DscJobs.py
-title: DSCJobs.py
+title: dscjobs.py
 ---
 
 On 11.01.2022, the first programmatic Implementation of the API was released: 
