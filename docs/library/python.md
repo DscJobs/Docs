@@ -101,3 +101,39 @@ A Detailed look into the Classes:
 *   `replies` (int) Reply Count
 *   `date` (int) The Unix-Timestamp of the creation of the Review
 *   `rate` (int) The Rating
+
+**API V1.01**:
+The API Consists now of 3 Classes! ::
+* Class: ClientSession : Handles Async Coroutines and API Interactions, makes Code really more comfortable to use ;)
+* Class: User : This class stores the data from the /user Endpoint. However, do not directly implement it in your code, as it is uncomfortable to use. 
+* Class: Review : This class stores the data from the /rev Endpoint. However, just as for User, do not directly implement it in your code, as it is uncomfortable to use.
+* Function: fetchUser : Asynchronous Function that fetches Data from /user and stores it in an instance of User()
+* Function: fetchReview : Asynchronous Function that fetches Data from /rev and stores it in an instance of Review()
+
+Example Usage:
+```py
+from dscjobs import fetchUser, fetchReview, ClientSession
+
+client = ClientSession()
+
+@client.once
+async def main():
+  userid = input("ID: ")
+  user = fetchUser(userid)
+  print(user.staff)
+  review = fetchReview(userid)
+  reviewer = review.user
+  print(reviewer.id)
+  print(review.rate+" "+review.content)
+ 
+client.run()
+```
+
+Closer look at the ClientSession Class:
+* **ClientSession**
+*   `once` (decorator function) The Coroutine to execute on run()
+*   `_runner` (Coroutine) Executed by run(). No need to use it yourself.
+*   `config` (dict): Configuration.
+*   `endpoint_for` (Function) Convert a Review/User back to it's Original Endpoint
+*   `run` (Function) Run the @once'd function and quit
+
