@@ -35,7 +35,7 @@ function Layout({
         appId: '1P3AE2PHXW',
         apiKey: process.env.ALGOLIA_API_KEY,
         siteId: 'c4574357-2d72-45dc-95f4-cb4899f50b2e',
-        indexName: 'DocsSearch'
+        indexName: 'DocsSearch',
         branch: 'master',
         debug: true
       });
