@@ -48,9 +48,6 @@ function Layout({
     }
 
       loadDocsearch();
-    else {
-      loadDocsearch();
-    }
   });
 
   return (
