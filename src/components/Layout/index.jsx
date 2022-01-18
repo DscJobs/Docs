@@ -37,6 +37,8 @@ function Layout({
         siteId: 'c4574357-2d72-45dc-95f4-cb4899f50b2e',
         indexName: 'DocsSearch',
         branch: 'master',
+        inputSelector: '#docs-search-box',
+        selector: '#docs-search-box',
         debug: true
       });
     }
