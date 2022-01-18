@@ -38,8 +38,6 @@ function Layout({
         indexName: 'netlify_c4574357-2d72-45dc-95f4-cb4899f50b2e_master_all',
         branch: 'master',
         inputSelector: '#docs-search-box',
-        selector: '#docs-search-box',
-        debug: true
       });
     }
 
