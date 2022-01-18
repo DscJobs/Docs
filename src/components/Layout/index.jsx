@@ -32,10 +32,13 @@ function Layout({
   useEffectOnce(() => {
     function loadDocsearch() {
       window.docsearch({
-        apiKey: process.env.ALGOLIA_API_KEY,
-        indexName: "netlify_c4574357-2d72-45dc-95f4-cb4899f50b2e_master_all",
-        inputSelector: "#docs-search-box",
-        debug: true
+       algoliasearchNetlify({
+         appId: '1P3AE2PHXW',
+         apiKey: process.env.ALGOLIA_API_KEY,
+         siteId: 'c4574357-2d72-45dc-95f4-cb4899f50b2e',
+         branch: 'master',
+         selector: 'div#docs-search-box',
+        });
       });
     }
 
@@ -56,10 +59,9 @@ function Layout({
       <SEO title={title} description={description} />
       <Header {...headerProps} />
       <Helmet>
-        <link
-          rel="stylesheet"
-          href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css"
-        />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.css" />
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.js"></script>
       </Helmet>
       <div className={classNames("docs-root", { "show-drawer": showDrawer })}>
         {noDrawer ? null : (
