@@ -37,7 +37,7 @@ function Layout({
          apiKey: process.env.ALGOLIA_API_KEY,
          siteId: 'c4574357-2d72-45dc-95f4-cb4899f50b2e',
          branch: 'master',
-         selector: 'div#docs-search-box',
+         selector: 'input#docs-search-box',
         });
       });
     }
