@@ -3,6 +3,7 @@ import { graphql, useStaticQuery } from "gatsby";
 import PropTypes from "prop-types";
 import classNames from "classnames";
 import useDarkMode from "use-dark-mode";
+import Helmet from "react-helmet";
 
 import Link from "components/Link";
 import Icon from "components/Icon";
@@ -65,6 +66,26 @@ function Header({ sticky, leftChildren, ...rest }) {
             id="docs-search-box"
             placeholder="Search the DscJobs Docs"
           />
+          <Helmet>
+              <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.css" />
+              <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.js"></script>
+              <script type="text/javascript">
+                        algoliasearchNetlify({
+                              appId: '1P3AE2PHXW',
+                              apiKey: process.env.ALGOLIA_API_KEY,
+                              siteId: 'c4574357-2d72-45dc-95f4-cb4899f50b2e',
+                              branch: 'master',
+                              selector: '#docs-search-box',
+                              theme: {
+                                 mark: '#fff',
+                                 background: '#23263b',
+                                 selected: '#111432',
+                                 text: '#d6d6e7',
+                                 colorSourceIcon: '#d6d6e7'
+                                }
+                             });
+                 </script>
+          </Helmet>
         </div>
         <Nav className="right-links">
           <span className="nav-divider"></span>
