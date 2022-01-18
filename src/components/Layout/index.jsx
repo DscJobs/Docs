@@ -47,8 +47,7 @@ function Layout({
       });
     }
 
-    if (!isDefined(process.env.ALGOLIA_API_KEY)) return;
-    if (isDefined(window.docsearch)) loadDocsearch();
+      loadDocsearch();
     else {
       loadDocsearch();
     }
