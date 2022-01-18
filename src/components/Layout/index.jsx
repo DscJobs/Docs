@@ -48,7 +48,7 @@ function Layout({
     }
 
     if (!isDefined(process.env.ALGOLIA_API_KEY)) return;
-    if (isDefined(algoliasearchNetlify)) loadDocsearch();
+    if (isDefined(window.docsearch)) loadDocsearch();
     else {
       const retryTimer = useInterval(() => {
         if (isDefined(window.docsearch)) {
