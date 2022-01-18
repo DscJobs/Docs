@@ -36,7 +36,7 @@ function Layout({
          apiKey: process.env.ALGOLIA_API_KEY,
          siteId: 'c4574357-2d72-45dc-95f4-cb4899f50b2e',
          branch: 'master',
-         selector: 'input#docs-search-box',
+         selector: '#docs-search-box',
          theme: {
             mark: '#fff',
             background: '#23263b',
