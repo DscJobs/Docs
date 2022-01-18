@@ -31,23 +31,24 @@ function Layout({
   const closeDrawer = useCallback(() => setShowDrawer(false));
   useEffectOnce(() => {
     function loadDocsearch() {
-       algoliasearchNetlify({
-         appId: '1P3AE2PHXW',
-         apiKey: process.env.ALGOLIA_API_KEY,
-         siteId: 'c4574357-2d72-45dc-95f4-cb4899f50b2e',
-         branch: 'master',
-         selector: '#docs-search-box',
-         theme: {
-            mark: '#fff',
-            background: '#23263b',
-            selected: '#111432',
-            text: '#d6d6e7',
-            colorSourceIcon: '#d6d6e7'
-          }
+      window.docsearch({
+        apiKey: process.env.ALGOLIA_API_KEY,
+        indexName: "netlify_c4574357-2d72-45dc-95f4-cb4899f50b2e_master_all",
+        inputSelector: "#docs-search-box",
+        debug: true
       });
     }
 
-      loadDocsearch();
+    if (!isDefined(process.env.ALGOLIA_API_KEY)) return;
+    if (isDefined(window.docsearch)) loadDocsearch();
+    else {
+      const retryTimer = useInterval(() => {
+        if (isDefined(window.docsearch)) {
+          clearInterval(retryTimer);
+          loadDocsearch();
+        }
+      }, 1000);
+    }
   });
 
   return (
