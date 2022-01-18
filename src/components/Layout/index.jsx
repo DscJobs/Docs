@@ -50,12 +50,7 @@ function Layout({
     if (!isDefined(process.env.ALGOLIA_API_KEY)) return;
     if (isDefined(window.docsearch)) loadDocsearch();
     else {
-      const retryTimer = useInterval(() => {
-        if (isDefined(window.docsearch)) {
-          clearInterval(retryTimer);
-          loadDocsearch();
-        }
-      }, 1000);
+      loadDocsearch();
     }
   });
 
