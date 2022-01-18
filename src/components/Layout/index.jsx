@@ -32,8 +32,8 @@ function Layout({
   useEffectOnce(() => {
     function loadDocsearch() {
       window.docsearch({
-        apiKey: process.env.GATSBY_ALGOLIA_KEY,
-        indexName: "archit",
+        apiKey: process.env.ALGOLIA_API_KEY,
+        indexName: "DocsSearch",
         inputSelector: "#docs-search-box",
         debug: true
       });
