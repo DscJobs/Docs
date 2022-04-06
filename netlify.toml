@@ -9,8 +9,6 @@
   status = 301
   force = true
 
-[[plugins]]
-  package = "@algolia/netlify-plugin-crawler"
 [plugins.inputs]
   branches = ['main', 'master', 'pull_request']
   disabled = false
