@@ -4,8 +4,6 @@
   "version": "1.0.0",
   "author": "TheRealToxicDev",
   "dependencies": {
-    "@algolia/algoliasearch-netlify-frontend": "^1.0.12",
-    "@algolia/netlify-plugin-crawler": "^1.0.12",
     "@fortawesome/fontawesome-svg-core": "^1.2.19",
     "@fortawesome/free-brands-svg-icons": "^5.9.0",
     "@fortawesome/free-solid-svg-icons": "^5.9.0",
