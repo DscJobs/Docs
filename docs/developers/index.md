@@ -1,8 +1,6 @@
 ---
 shortTitle: Developers
 title: Developers
-noBreadcrumb: true
-isRoot: true
 ---
 
 ---

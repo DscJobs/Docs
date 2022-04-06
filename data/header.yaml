@@ -1,6 +1,8 @@
 links:
   - href: "/"
     text: Docs
+  - href: "/docs/developers/versions"
+    text: "Versions"
   - href: "https://dscjobs.org"
     newTab: false
     text: Website
