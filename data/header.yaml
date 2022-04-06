@@ -1,0 +1,13 @@
+links:
+  - href: "/"
+    text: Docs
+  - href: "https://dscjobs.org"
+    newTab: false
+    text: Website
+
+rightLinks:
+  - href: "https://dscjobs.org/discord"
+    icon: discord
+    class: d-none d-sm-block
+  - href: "https://github.com/DscJobs"
+    icon: github
