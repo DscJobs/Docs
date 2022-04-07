@@ -14,7 +14,7 @@ By accessing this Website, Accessible from dscjobs.org, you are agreeing to be b
 ---
 
 ## Use License
-- Read our [Use License](./license.md)
+- Read our [Use License](/legal-info/license)
 
 ---
 
