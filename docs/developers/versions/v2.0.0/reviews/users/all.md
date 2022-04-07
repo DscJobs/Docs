@@ -6,6 +6,10 @@ This endpoint is used to view all Reviews for a Specified User!
 
 ---
 
+## Rate Limits 
+
+This endpoint may be subject to [Rate Limits](/developers/versions/v2.0.0/resources/rateLimits/)
+
 ## Base URL
 <Route method="GET" path="https://api.dscjobs.org" />
 
