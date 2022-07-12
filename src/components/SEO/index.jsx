@@ -70,7 +70,7 @@ function SEO({ description, lang, meta, title }) {
         },
         {
           property: "og:image",
-          content: "https://dscjobs.org/secret/assets/imgs/DscJobsNewLogo.png",
+          content: "https://jobcord.co/secret/assets/imgs/DscJobsLogo.png",
         },
         {
           property: `og:description`,
@@ -114,28 +114,28 @@ function SEO({ description, lang, meta, title }) {
         {
           rel: "mask-icon",
           color: themeColor,
-          href: "https://dscjobs.org/secret/assets/imgs/DscJobsNewLogo.png",
+          href: "https://jobcord.co/secret/assets/imgs/DscJobsLogo.png",
         },
         {
           rel: "apple-touch-icon",
           sizes: "180x180",
-          href: "https://dscjobs.org/secret/assets/imgs/DscJobsNewLogo.png",
+          href: "https://jobcord.co/secret/assets/imgs/DscJobsLogo.png",
         },
         {
           rel: "icon",
           type: "image/png",
           sizes: "32x32",
-          href: "https://dscjobs.org/secret/assets/imgs/DscJobsNewLogo.png",
+          href: "https://jobcord.co/secret/assets/imgs/DscJobsLogo.png",
         },
         {
           rel: "icon",
           type: "image/png",
           sizes: "16x16",
-          href: "https://dscjobs.org/secret/assets/imgs/DscJobsNewLogo.png",
+          href: "https://jobcord.co/secret/assets/imgs/DscJobsLogo.png",
         },
         {
           rel: "shortcut icon",
-          href: "https://dscjobs.org/secret/assets/imgs/DscJobsNewLogo.png",
+          href: "https://jobcord.co/secret/assets/imgs/DscJobsLogo.png",
         },
       ]}
     />
