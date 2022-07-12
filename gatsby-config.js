@@ -10,7 +10,7 @@ require("dotenv").config({
 
 module.exports = {
   siteMetadata: {
-    title: `JobCord Documentation`,
+    title: `JobCord`,
     description: `Official Documentation for the JobCord API, Website and Discord Server`,
     author: `JobCord`,
     siteUrl: `https://docs.jobcord.co`,
