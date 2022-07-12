@@ -10,10 +10,10 @@ require("dotenv").config({
 
 module.exports = {
   siteMetadata: {
-    title: `DscJobs Documentation`,
-    description: `Official Documentation for the DscJobs API, Website and Discord Server`,
-    author: `DscJobs`,
-    siteUrl: `https://docs.dscjobs.org`,
+    title: `JobCord Documentation`,
+    description: `Official Documentation for the JobCord API, Website and Discord Server`,
+    author: `JobCord`,
+    siteUrl: `https://docs.jobcord.co`,
     themeColor,
     msTileColor: "#3D476E",
     github: {
