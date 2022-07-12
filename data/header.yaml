@@ -3,12 +3,12 @@ links:
     text: Docs
   - href: "/developers/versions"
     text: "Versions"
-  - href: "https://dscjobs.org"
+  - href: "https://jobcord.co"
     newTab: false
     text: Website
 
 rightLinks:
-  - href: "https://dscjobs.org/discord"
+  - href: "https://jobcord.co/discord"
     icon: discord
     class: d-none d-sm-block
   - href: "https://github.com/DscJobs"
